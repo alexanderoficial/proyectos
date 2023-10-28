@@ -1,0 +1,203 @@
+
+.shop{
+    position: relative;
+    top: -20px;
+    left: -420px;    
+    color: white;
+    font-size: 15px;
+}
+.marcados{
+    position: relative;
+    left:-380px;
+    top:-63px;
+    color: red;
+    
+}
+.principal{
+    position: relative;
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);/* Cambia el color de fondo de la sección según tus preferencias */
+    padding: 20px;
+    height: 25px;
+    top: -10px;
+    width: 96.3%;
+    
+    
+}
+
+/* Estilo para la barra de navegación y enlaces */
+.barra-navegacion {
+    margin-top: 20px;
+    position:relative;
+    left: 100px;
+}
+
+.barra-navegacion a {
+    text-decoration: none;
+    color: white; 
+    margin: 0 20px;
+    position: relative;
+    top: -105px;
+    left: 20%;
+  }
+
+.barra-navegacion a:hover{
+    background: red;
+}
+.principal::before {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: red; /* Cambia el color de la línea según tus preferencias */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transform: translateY(-50%);
+}
+ 
+
+.caja-video{
+    position: relative;
+}
+
+.caja-video video{
+    width: 100%;
+    height: 590px;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    top: -28px;
+    z-index: -1;
+}
+.texto-info h2{
+    font-size: 60px;
+    text-align: center;
+    position: relative;
+    color: red;
+    
+}
+.texto-info a{
+    text-decoration: none;
+    outline: none;
+    color: white;
+    
+}
+.reserva{
+    position: absolute;
+    width: 130px;
+    height: 30px;
+    border: 2px solid red;
+    font-size: 20px;
+    border-radius: 30px;
+    left: 43%;
+    top: 280px;
+
+}
+.reserva:hover{
+    outline: none;
+    background: red;
+    
+}
+.oculto{
+   background-color: transparent;
+   position: relative;
+   height: 480px;
+   z-index: -1;
+   
+}
+footer{
+    height: 80px;
+    background: #0b0e13e1;
+}
+footer h1{
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 10px;
+}
+footer h5{
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
+/* modo android y tablet */
+
+@media(max-width: 770px){
+    body{
+        font-size: 12px;
+    }
+    .principal{
+        position: absolute;
+        text-align: center;
+        padding: 20px;
+    height: 25px;
+    top: -10px;
+    width: 96.3%;
+        
+    }
+    .barra-navegacion {
+    margin-top: 20px;
+    position:relative;
+    left: 100px;
+   
+}
+
+.barra-navegacion a {
+    text-decoration: none;
+    color: white; 
+    margin: auto;    
+    position: relative;
+    top: -105px;
+    padding: 10px;
+    left: -120px;
+  }
+
+.barra-navegacion a:hover{
+    background: red;
+}
+.principal::before {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: red; /* Cambia el color de la línea según tus preferencias */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transform: translateY(-50%);
+}
+ 
+.texto-info h2{
+    font-size: 30px;
+    position: relative;
+    top: auto;
+    width: auto;
+    height: auto;
+}
+.reserva{
+    position: relative;
+    font-size: 12px;
+    top: 0;
+    left: 35%;
+    width: 90px;
+    height: 20px;
+}
+.oculto{
+   background-color: transparent;
+   position: relative;
+   height: auto;
+   z-index: -1;
+   
+}
+.caja-video video{
+  position: relative;
+  height: 400px;
+    
+}
+}
