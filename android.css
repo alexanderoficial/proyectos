@@ -1,0 +1,170 @@
+@media screen and (max-width: 800px) {
+    body{
+        font-size: 16px;
+        
+    }
+    .logo{
+        color: red;
+        text-align: center;
+    }
+    nav{
+        background: red;
+        position: relative;
+        top: 10px;
+        left: 0;
+    }
+    nav:hover{
+        background: red;
+    }
+    nav ul li a{
+        display: block;
+    }
+    nav ul li a:hover{
+        background: none;
+    }
+    #tres{
+        display: block;
+        position: relative;
+        left: 20px;
+    }
+    #barra-ocultos{
+        display: none;
+    }
+    
+    #mostrar-barra{
+        transform: rotate(90deg);
+        
+        
+    }
+   #tres img{
+       width: 20px;
+       height: 20px;
+       position: relative;
+       top: 5px;
+       left:0;
+   } 
+   .texto-paginas{
+       text-align: center;
+       position: relative;
+       top: 0;
+       left: 0;
+   }
+   .texto-creados{
+       text-align: center;
+       position: relative;
+       top: 0;
+        left: 0;
+   }
+   .contenedor{
+       display: block;
+       position: relative;
+       justify-content: center;
+       align-content: center;
+       width: auto;
+       height: auto;
+   }
+    
+    .contenedor img{
+        display: block;
+        position: relative;
+        width: auto;
+        align-content: center;
+        justify-content: center;
+        left: 10%;
+        
+    }
+    .contenedor button{
+        position: relative;
+     
+        left: 40%;
+    }
+    
+    
+    }
+    
+    
+@media screen and (max-width: 650px) {
+    body{
+        font-size: 14px;
+        
+        
+    }
+    .logo{
+        color: red;
+        text-align: center;
+    }
+    nav{
+        background: red;
+        position: relative;
+        top: 10px;
+        left: 0;
+    }
+    nav:hover{
+        background: red;
+    }
+    nav ul li a{
+        display: block;
+    }
+    nav ul li a:hover{
+        background: none;
+    }
+    #tres{
+        display: block;
+        position: relative;
+        left: 20px;
+    }
+    #barra-ocultos{
+        display: none;
+    }
+    
+    #mostrar-barra{
+        transform: rotate(90deg);
+        
+        
+    }
+   #tres img{
+       width: 20px;
+       height: 20px;
+       position: relative;
+       top: 5px;
+       left:0;
+   } 
+   .texto-paginas{
+       text-align: center;
+       position: relative;
+       top: 0;
+       left: 0;
+   }
+   .texto-creados{
+       text-align: center;
+       position: relative;
+       top: 0;
+        left: 0;
+   }
+   .contenedor{
+       display: block;
+       position: relative;
+       justify-content: center;
+       align-content: center;
+       width: auto;
+       height: auto;
+   }
+    
+    .contenedor img{
+        display: block;
+        position: relative;
+        width: 90%;
+        align-content: center;
+        justify-content: center;
+        left: 5%;
+        
+    }
+    .contenedor button{
+        position: relative;
+     
+        left: 40%;
+    }
+    
+    
+    }
+    
